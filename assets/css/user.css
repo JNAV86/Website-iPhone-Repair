@@ -1,0 +1,263 @@
+.navbar{
+  margin-bottom:0;
+  border:none;
+}
+
+.navbar-brand .glyphicon{
+  margin-right:6px;
+}
+
+#jumbo1{
+  background-size:cover;
+  border:none;
+  background-image:url(../../assets/img/e3.jpg);
+  height:100vh;
+}
+
+@media (min-width:992px) {
+  .hero .get-it{
+    text-align:right;
+    margin-top:80px;
+    padding-right:30px;
+  }
+}
+
+@media (max-width:992px) {
+  .hero .get-it{
+    text-align:center;
+  }
+}
+
+@media (max-width:992px) {
+  .hero .phone-preview{
+    text-align:center;
+  }
+}
+
+.hero .get-it h1, .hero .get-it p{
+  color:#fff;
+  text-shadow:2px 2px 3px rgba(0,0,0,0.3);
+  margin-bottom:40px;
+}
+
+.hero .get-it .btn{
+  margin-left:10px;
+  margin-bottom:10px;
+  text-shadow:none;
+}
+
+div.iphone-mockup{
+  position:relative;
+  max-width:250px;
+  margin:20px;
+  display:inline-block;
+}
+
+.iphone-mockup img.device{
+  width:100%;
+  height:auto;
+}
+
+.iphone-mockup .screen{
+  position:absolute;
+  width:88%;
+  height:77%;
+  top:12%;
+  border-radius:2px;
+  left:6%;
+  border:1px solid #444;
+  background-color:#aaa;
+  overflow:hidden;
+  background:url(../../assets/img/screen-content-iphone-6.jpg);
+  background-size:cover;
+  background-position:center;
+}
+
+.iphone-mockup .screen:before{
+  content:'';
+  background-color:#fff;
+  position:absolute;
+  width:70%;
+  height:140%;
+  top:-12%;
+  right:-60%;
+  transform:rotate(-19deg);
+  opacity:0.2;
+}
+
+.icon-feature{
+  text-align:center;
+}
+
+.icon-feature .glyphicon{
+  font-size:60px;
+}
+
+section.features{
+  background-color:#369;
+  padding:40px 0;
+  color:#fff;
+}
+
+.features h2{
+  color:#fff;
+}
+
+.features .icon-features{
+  margin-top:15px;
+}
+
+.testimonials blockquote{
+  text-align:center;
+}
+
+section.testimonials{
+  margin:50px 0;
+}
+
+.site-footer{
+  padding:20px 0;
+  text-align:center;
+}
+
+@media (min-width:768px) {
+  .site-footer h5{
+    text-align:left;
+  }
+}
+
+.site-footer h5{
+  color:inherit;
+  font-size:20px;
+}
+
+.site-footer .social-icons a:hover{
+  opacity:1;
+}
+
+.site-footer .social-icons a{
+  display:inline-block;
+  width:32px;
+  border:none;
+  font-size:20px;
+  border-radius:50%;
+  margin:4px;
+  color:#fff;
+  text-align:center;
+  background-color:#798FA5;
+  height:32px;
+  opacity:0.8;
+  line-height:32px;
+}
+
+@media (min-width:768px) {
+  .site-footer .social-icons{
+    text-align:right;
+  }
+}
+
+section#devices.testimonials{
+  background-color:#33ccff;
+}
+
+section#testimonials{
+  background-color:white;
+  height:100vh;
+}
+
+div.col-md-6{
+  margin-bottom:5em;
+}
+
+img.circle{
+  margin:20px;
+}
+
+#jumbo2{
+  background-image:url(../../assets/img/e1.jpg);
+  background-size:cover;
+  background-color:#444;
+  border:none;
+}
+
+section#services.testimonials{
+}
+
+section#mobility-proficiency{
+  height:100vh;
+}
+
+section#call-to-action{
+  height:100vh;
+}
+
+#caption{
+  position:absolute;
+  top:200px;
+  left:0;
+  width:100%;
+}
+
+.white-text{
+  color:white;
+}
+
+.row-margin{
+  margin-top:5em;
+  margin-bottom:5em;
+}
+
+h1#jumbo-heading.text-center.white-text{
+  color:white;
+}
+
+div#all.jumbotron{
+  background-color:#33ccff;
+}
+
+footer{
+  background-color:#111;
+}
+
+div#testimonials.jumbotron{
+  background-color:#33ccff;
+}
+
+h1#footer-logo{
+  color:white;
+}
+
+h1.footer-logo{
+  color:white;
+}
+
+.footer-links{
+  color:white;
+}
+
+h1.text-center.white-text{
+  color:white;
+}
+
+div#select-device-row.row{
+  margin-top:5em;
+}
+
+h1#services.text-center{
+  color:black;
+  margin-bottom:5%;
+}
+
+p.footer-p{
+  color:#999;
+}
+
+p.footer-l{
+  color:#0099ff;
+}
+
+a#nav-logo.navbar-brand.navbar-link{
+  color:#444;
+  font-size:2.5em;
+}
+
